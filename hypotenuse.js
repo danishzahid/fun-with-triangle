@@ -1,6 +1,6 @@
 const sides = document.querySelectorAll(".side-input");
 const hypotenuseBtn = document.querySelector("#hypotenuse-btn")
-const output = document.querySelector(".output");
+const output = document.querySelector(".output-hypotenuse");
 
 
 function rootSumOfSquare(a,b){

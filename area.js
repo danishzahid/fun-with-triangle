@@ -1,7 +1,7 @@
 const base = document.querySelector(".base");
 const height = document.querySelector(".height");
 const areaBtn = document.querySelector("#area-btn");
-const output = document.querySelector(".output");
+const output = document.querySelector(".output-area");
 
 
 areaBtn.addEventListener("click", function claculateArea(){

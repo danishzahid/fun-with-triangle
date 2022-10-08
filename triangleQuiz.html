@@ -4,16 +4,20 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
     <title>Triangle QUiz</title>
 </head>
 <body>
-    <h1>Triangle Quiz</h1>
-    <nav>
-        <a href="triangleQuiz.html">Quiz</a>
-        <a href="hypotenuse.html">Calculate Hypotenuse</a>
-        <a href="area.html">Calculate Area</a>
-        <a href="index.html">Is Triangle</a>
-    </nav>
+    <div class="heading">
+        <nav class="nav-bar">
+            <a href="triangleQuiz.html">Quiz</a>
+            <a href="hypotenuse.html">Calculate Hypotenuse</a>
+            <a href="area.html">Calculate Area</a>
+            <a href="index.html">Is Triangle</a>
+        </nav>
+    <h1>📐Fun With Triangle📐</h1>
+    </div>
+    <div class="form-background">
     <form class="quiz-form">
         <div class="ques-container">
             <p>What is the third angle for the triangle where angle1 = 45° and angle2 = 45°?</p>
@@ -29,7 +33,13 @@
         </div>
     </form>
     <button type="submit" id="submit-btn">Submit Answers</button>
-    <div id="output"></div>
+    </div>
+    <div class="quiz-textarea">
+    <textarea id="output" placeholder="Check Your Score Here!" disabled></textarea>
+    </div>
+    <footer>
+        <p>Project by <a href="https://clbydanish.netlify.app/">Danish Zahid</a></p>
+    </footer>
 
 
     <script src="triangleQuiz.js"></script>

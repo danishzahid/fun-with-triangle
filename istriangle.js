@@ -1,6 +1,5 @@
 const inputs = document.querySelectorAll(".angle-input");
 const isTriangleBtn = document.querySelector("#is-triangle-btn");
-const output = document.querySelector("#output");
 const outputBox = document.querySelector("#output-bx");
 
 

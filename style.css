@@ -1,0 +1,109 @@
+.heading {
+    display: block;
+    background-color: black;
+    padding: 3rem 3rem 3rem 3rem;
+    text-align: center;
+}
+h1 {
+    text-align: center;
+    background-color: cadetblue;
+    padding: 1rem;
+}
+.angle-input {
+    padding: 0.5rem;
+}
+
+a {
+    font-weight: bold;
+    text-decoration: none;
+    padding: 1rem;
+    background-color: cadetblue;
+    border-radius: 0.5rem ;
+    color: black;
+}
+
+textarea {
+    margin-top: 1rem;
+    margin-bottom: 0.5rem;
+    padding: 1rem;
+}
+#is-triangle-btn {
+    margin-top: 1rem;
+    border: 2px solid black;
+    padding: 0.5rem;
+    background-color: white;
+    color: black;
+    font-weight: bold;
+}
+#submit-btn:hover, #hypotenuse-btn:hover, #is-triangle-btn:hover, #area-btn:hover {
+    background-color: black;
+    color: white;
+
+}
+footer {
+    background-color: black;
+    padding: 0.5rem;
+    color: white;
+    font-size: x-large;
+    text-align: center;
+
+}
+
+.main {
+    background-color: cadetblue;
+    text-align: center;
+    display: block;
+}
+label {
+    display: block;
+    padding-bottom: 1rem;
+}
+
+/* form css quiz page*/
+
+.form-background {
+    display: block;
+    background-color: #bfd8d9;
+    width: 1000px;
+    margin: 0 auto;
+}
+
+#submit-btn, #hypotenuse-btn, #area-btn {
+    margin: 1rem;
+    border: 2px solid black;
+    padding: 0.5rem;
+    background-color: white;
+    color: black;
+    font-weight: bold;
+}
+
+#output {
+    background-color: #bfd8d9;
+}
+.quiz-textarea {
+    text-align: center;
+}
+
+/*  css hypoteniuse page*/
+
+.hyp-and-area {
+    display: block;
+    background-color: #bfd8d9;
+    width: 1000px;
+    margin: 0 auto;
+    padding: 2rem;
+}
+
+.side-input {
+    padding: 0.5rem;
+}
+.output-hypotenuse, .output-area {
+    background-color: #bfd8d9;
+   
+}
+
+
+/*  css area page*/
+.base, .height {
+    padding: 0.5rem;
+}
