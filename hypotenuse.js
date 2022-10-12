@@ -10,6 +10,11 @@ function rootSumOfSquare(a,b){
 }
 
 hypotenuseBtn.addEventListener("click", function calculateHypotenuse(){
-    const hypotenuse = rootSumOfSquare(Number(sides[0].value),Number(sides[1].value));
+    if(sides[0].value>0 && sides[1].value>0){
+        const hypotenuse = rootSumOfSquare(Number(sides[0].value),Number(sides[1].value));
     output.innerText = "Hypotenuse calculated is "+hypotenuse;
+    }
+    else {
+        output.innerText = "Please enter all values as > zero";
+    }
 })
